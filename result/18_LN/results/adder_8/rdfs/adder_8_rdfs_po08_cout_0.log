@@ -1,0 +1,17 @@
+setup> cirread -v /Users/tzuen/Desktop/gv/HWE/designs/adder_8.v
+
+setup> breset 2000 8009 30011
+
+setup> bsetorder -rdfs
+Set BDD Variable Order Succeed !!
+
+setup> bcons -output 8
+
+setup> 
+<sults/adder_8/rdfs/adder_8_rdfs_po08_cout_0.bdd.txt
+
+setup> 
+<E/results/adder_8/rdfs/adder_8_rdfs_po08_cout_0.dot
+
+setup> q -f
+

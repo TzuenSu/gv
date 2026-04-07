@@ -1,0 +1,17 @@
+setup> cirread -v /Users/tzuen/Desktop/gv/HWE/designs/mult_8.v
+
+setup> breset 2000 8009 30011
+
+setup> bsetorder -file
+Set BDD Variable Order Succeed !!
+
+setup> bcons -output 4
+
+setup> 
+<WE/results/mult_8/file/mult_8_file_po04_p_4.bdd.txt
+
+setup> 
+<gv/HWE/results/mult_8/file/mult_8_file_po04_p_4.dot
+
+setup> q -f
+

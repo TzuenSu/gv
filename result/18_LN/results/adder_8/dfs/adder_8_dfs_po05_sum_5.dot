@@ -1,0 +1,56 @@
+digraph {
+   node [shape = plaintext];
+   12 -> 11 -> 10 -> 9 -> 8 -> 7 -> 6 -> 5 -> 4 -> 3 -> 2 -> 1 -> 0 [style = invis];
+   { rank = source; "89"; }
+   node [shape = ellipse];
+   "89" -> "0x147785d70" [color = blue];
+   { rank = same; 12; "0x147785d70"; }
+   "0x147785d70" -> "0x147785d30";
+   "0x147785d70" -> "0x147785d30"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 11; "0x147785d30"; }
+   "0x147785d30" -> "0x147785b70";
+   "0x147785d30" -> "0x147785b70"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 10; "0x147785b70"; }
+   "0x147785b70" -> "0x147785b30";
+   "0x147785b70" -> "0x147785ab0"[style = dotted ] [color=red];
+   { rank = same; 9; "0x147785b30"; }
+   "0x147785b30" -> "One";
+   "0x147785b30" -> "0x14776d190"[style = dotted ] [color=red];
+   { rank = same; 8; "0x14776d190"; }
+   "0x14776d190" -> "0x1477859b0";
+   "0x14776d190" -> "0x14776cf90"[style = dotted ] [color=red];
+   { rank = same; 7; "0x1477859b0"; }
+   "0x1477859b0" -> "One";
+   "0x1477859b0" -> "0x147785970"[style = dotted ] [color=red];
+   { rank = same; 6; "0x147785970"; }
+   "0x147785970" -> "0x147785930";
+   "0x147785970" -> "0x1477857f0"[style = dotted ] [color=red];
+   { rank = same; 5; "0x147785930"; }
+   "0x147785930" -> "One";
+   "0x147785930" -> "0x147785630"[style = dotted ] [color=red];
+   { rank = same; 4; "0x147785630"; }
+   "0x147785630" -> "0x1477855f0";
+   "0x147785630" -> "0x147785570"[style = dotted ] [color=red];
+   { rank = same; 3; "0x1477855f0"; }
+   "0x1477855f0" -> "One";
+   "0x1477855f0" -> "0x147785470"[style = dotted ] [color=red];
+   { rank = same; 2; "0x147785470"; }
+   "0x147785470" -> "0x1477482f0";
+   "0x147785470" -> "One"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 1; "0x1477482f0"; }
+   "0x1477482f0" -> "One";
+   "0x1477482f0" -> "One"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 3; "0x147785570"; }
+   "0x147785570" -> "0x147785470";
+   "0x147785570" -> "One"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 5; "0x1477857f0"; }
+   "0x1477857f0" -> "0x147785630";
+   "0x1477857f0" -> "One"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 7; "0x14776cf90"; }
+   "0x14776cf90" -> "0x147785970";
+   "0x14776cf90" -> "One"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 9; "0x147785ab0"; }
+   "0x147785ab0" -> "0x14776d190";
+   "0x147785ab0" -> "One"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 0; "One"; }
+}

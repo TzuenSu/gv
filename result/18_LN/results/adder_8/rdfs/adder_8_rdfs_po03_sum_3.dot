@@ -1,0 +1,38 @@
+digraph {
+   node [shape = plaintext];
+   16 -> 15 -> 14 -> 13 -> 12 -> 11 -> 10 -> 9 -> 8 -> 7 -> 6 -> 5 -> 4 -> 3 -> 2 -> 1 -> 0 [style = invis];
+   { rank = source; "87"; }
+   node [shape = ellipse];
+   "87" -> "0x1240271e0" [color = blue];
+   { rank = same; 16; "0x1240271e0"; }
+   "0x1240271e0" -> "0x1240271a0";
+   "0x1240271e0" -> "0x124027160"[style = dotted ] [color=red];
+   { rank = same; 15; "0x1240271a0"; }
+   "0x1240271a0" -> "0x124027120";
+   "0x1240271a0" -> "0x124027160"[style = dotted ] [color=red];
+   { rank = same; 14; "0x124027120"; }
+   "0x124027120" -> "0x124027060";
+   "0x124027120" -> "0x1240270e0"[style = dotted ] [color=red];
+   { rank = same; 12; "0x124027060"; }
+   "0x124027060" -> "0x124026480";
+   "0x124027060" -> "0x124009f30"[style = dotted ] [color=red];
+   { rank = same; 10; "0x124026480"; }
+   "0x124026480" -> "0x1240044c0";
+   "0x124026480" -> "0x1240044c0"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 9; "0x1240044c0"; }
+   "0x1240044c0" -> "One";
+   "0x1240044c0" -> "One"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 11; "0x124009f30"; }
+   "0x124009f30" -> "0x124026480";
+   "0x124009f30" -> "0x124026480"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 13; "0x1240270e0"; }
+   "0x1240270e0" -> "0x124027060";
+   "0x1240270e0" -> "0x1240270a0"[style = dotted ] [color=red];
+   { rank = same; 12; "0x1240270a0"; }
+   "0x1240270a0" -> "0x124009f30";
+   "0x1240270a0" -> "0x124026480"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 14; "0x124027160"; }
+   "0x124027160" -> "0x1240270e0";
+   "0x124027160" -> "0x1240270a0"[style = dotted ] [color=red];
+   { rank = same; 0; "One"; }
+}

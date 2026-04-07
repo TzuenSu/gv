@@ -1,0 +1,14 @@
+digraph {
+   node [shape = plaintext];
+   8 -> 7 -> 6 -> 5 -> 4 -> 3 -> 2 -> 1 -> 0 [style = invis];
+   { rank = source; "97"; }
+   node [shape = ellipse];
+   "97" -> "0x12c684f90" [color = blue];
+   { rank = same; 8; "0x12c684f90"; }
+   "0x12c684f90" -> "0x12c665830";
+   "0x12c684f90" -> "One"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 7; "0x12c665830"; }
+   "0x12c665830" -> "One";
+   "0x12c665830" -> "One"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 0; "One"; }
+}

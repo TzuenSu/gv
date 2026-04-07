@@ -1,0 +1,17 @@
+setup> cirread -v /Users/tzuen/Desktop/gv/HWE/designs/adder_4.v
+
+setup> breset 2000 8009 30011
+
+setup> bsetorder -dfs
+Set BDD Variable Order Succeed !!
+
+setup> bcons -output 4
+
+setup> 
+<results/adder_4/dfs/adder_4_dfs_po04_cout_0.bdd.txt
+
+setup> 
+<HWE/results/adder_4/dfs/adder_4_dfs_po04_cout_0.dot
+
+setup> q -f
+

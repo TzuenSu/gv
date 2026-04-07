@@ -1,0 +1,13 @@
+digraph DD {
+  rankdir=TB;
+  labelloc="t";
+  label="add_4 bdd file bit 0";
+  n1 [shape=circle,label="a[0]"];
+  n0 [shape=circle,label="b[0]"];
+  t1 [shape=box,label="0"];
+  t2 [shape=box,label="1"];
+  n0 -> t1 [style=dotted,label="0"];
+  n0 -> t2 [label="1"];
+  n1 -> n0 [style=dotted,label="0"];
+  n1 -> t2 [label="1"];
+}

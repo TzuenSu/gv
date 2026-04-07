@@ -1,0 +1,26 @@
+digraph {
+   node [shape = plaintext];
+   8 -> 7 -> 6 -> 5 -> 4 -> 3 -> 2 -> 1 -> 0 [style = invis];
+   { rank = source; "98"; }
+   node [shape = ellipse];
+   "98" -> "0x15966f740" [color = blue] [arrowhead = odot]
+   { rank = same; 8; "0x15966f740"; }
+   "0x15966f740" -> "0x15966f6e0";
+   "0x15966f740" -> "0x15966f3e0"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 7; "0x15966f6e0"; }
+   "0x15966f6e0" -> "0x159667fa0";
+   "0x15966f6e0" -> "0x149604170"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 6; "0x159667fa0"; }
+   "0x159667fa0" -> "0x149604130";
+   "0x159667fa0" -> "0x149604130"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 5; "0x149604130"; }
+   "0x149604130" -> "One";
+   "0x149604130" -> "One"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 6; "0x149604170"; }
+   "0x149604170" -> "One";
+   "0x149604170" -> "One"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 7; "0x15966f3e0"; }
+   "0x15966f3e0" -> "0x149604130";
+   "0x15966f3e0" -> "One"[style = dotted ] [color=red] [arrowhead=odot]
+   { rank = same; 0; "One"; }
+}
